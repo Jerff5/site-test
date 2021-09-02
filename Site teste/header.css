@@ -1,0 +1,25 @@
+header{
+    display: flex;flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+
+    background: rgb(7, 18, 34);
+
+
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+header nav ul li{
+   color: #fff;
+   margin: 0 3em;
+   margin-bottom: 15px;
+}
+
+
+header img {
+    margin: 0 3rem;
+}
