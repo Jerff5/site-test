@@ -2,6 +2,8 @@ header{
     display: flex;flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+    font-family:Roboto , sans-serif;
+    font-weight: bold;
 
     background: rgb(7, 18, 34);
 
@@ -18,8 +20,37 @@ header nav ul li{
    margin: 0 3em;
    margin-bottom: 15px;
 }
+header nav ul li a{
+    color: #fff;
+
+}
+.btn-orange{
+   background:orangered;
+   background-image: repeating-linear-gradient(to right , orangered , rgb(255, 145, 0));
+    
+    padding: 3px 20px;
+    width: 20px;
+    border-radius: 16px;
+    color: #fff;
+   text-shadow: 1px 2px 2px black;
+
+}
+.btn-orange:hover{
+   background:rgb(255, 145, 0) ;
+  color:#fff;
+  border:solid;
+}
+header nav ul li a:hover{
+   background:#fff;
+    color:rgb(255, 145, 0);
+    border:solid;
+    border-radius: 6px;
+
+}
+
 
 
 header img {
     margin: 0 3rem;
+    border-radius: 50%;
 }
