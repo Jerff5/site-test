@@ -45,6 +45,7 @@ header nav ul li a:hover{
     color:rgb(255, 145, 0);
     border:solid;
     border-radius: 6px;
+    transition-delay: 0.1s;
 
 }
 
