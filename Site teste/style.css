@@ -1,5 +1,6 @@
 @import "header.css";
 @import "main.css";
+@import "footer.css";
 
 *{
     margin: 0;
@@ -11,11 +12,11 @@
     text-decoration: none;
     
 }
+/*imagens bolha no background */
+body{
+    background-image: url(imagens/bolha-background.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    
+}
 
-/*
-font-family: 'Fira Sans Extra Condensed', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-fonts para usar no site
-
-*/
